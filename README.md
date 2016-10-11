@@ -37,17 +37,17 @@ To keep track of the different the entries in the phonebook, a balancing BST in 
 
 
 Add
-Avg Case - O(log(N))
-Worst Case - O(N)
+  Avg Case - O(log(N))
+  Worst Case - O(N)
 Delete
-Avg Case - O(log(N))
-Worst Case - O(N)
-Search
-Avg Case - O(log(N))
-Worst CaseO - (N)
+  Avg Case - O(log(N))
+  Worst Case - O(N)
+Search 
+  Avg Case - O(log(N))
+  Worst CaseO - (N)
 List All
-Avg Case - O(N)
-Worst Case - O(N)
+  Avg Case - O(N)
+  Worst Case - O(N)
 
 The table above shows the efficiencies of the different methods in the phonebook. The worst case occurs when every entry in the phonebook has the same name but a different number. However, because phonebooks usually have only a few entries with the same name, the add, search, and delete functions will run in O(log(n)) in the average case. The listAll function will run in O(N) in all cases because all nodes must be visited in order to print them. The benefit of using a TreeMap is that it keeps the entries sorted by name. The listAll function will return a sorted list without the extra work of sorting the data. 
 
